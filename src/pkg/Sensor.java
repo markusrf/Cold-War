@@ -28,9 +28,9 @@ public Integer adjustFreq(){
 	Integer freq = 0;
 	if(this.type.equals("tempSensor")){
 		if (this.value <= 0){
-			freq = // noen beregning
+			freq = 1;// noen beregning
 		}else{
-			freq = // noen andre beregning
+			freq = 1;// noen andre beregning
 		}
 	}
 	return freq;
