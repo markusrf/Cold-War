@@ -1,17 +1,18 @@
 package coldwar;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Controller {
 
   private Sensor sensor;
-	private ArrayList<Sensor> sensorList = new ArrayList();
+	private List<Sensor> sensorList = new ArrayList();
 	
 	public Controller(){
 	
 	}
 	
-	private void addSensor(String type){
+	public void addSensor(String type){
 		this.sensor = new Sensor(type);
 		this.sensorList.add(this.sensor);
 	}

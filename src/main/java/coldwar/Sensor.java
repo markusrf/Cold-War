@@ -25,8 +25,8 @@ public class Sensor {
     this.priority = new ArrayList<>(priority);
   }
 
-  public Integer adjustFreq(){
-    Integer freq = 0;
+  public int adjustFreq(){
+    int freq = 0;
     if(this.type.equals("tempSensor")){
       if (this.value <= 0){
         freq = 1;// noen beregning
