@@ -1,4 +1,4 @@
-package pkg;
+package coldwar;
 
 public class Motor {
 	
@@ -27,7 +27,5 @@ public class Motor {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	
-	
 
 }
