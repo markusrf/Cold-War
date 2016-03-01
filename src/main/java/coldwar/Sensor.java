@@ -1,12 +1,13 @@
 package coldwar;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Sensor {
 
   private double value;
   private String type;
-  private ArrayList<String> priority;
+  private List<String> priority;
 
   public Sensor(String type){
     this.type = type;
@@ -20,8 +21,8 @@ public class Sensor {
     this.value = value;
   }
 
-  public void setPriority(ArrayList<String> priority) {
-    this.priority = priority;
+  public void setPriority(List<String> priority) {
+    this.priority = new ArrayList<>(priority);
   }
 
   public Integer adjustFreq(){
